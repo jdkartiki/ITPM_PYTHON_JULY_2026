@@ -1,0 +1,25 @@
+1. Install Python
+2. Install Vscode
+3. Install Python Extension
+4. Install jupyter Extension
+5. Open Terminal : pip install notebook jupyter ipykernel
+
+=============================================================================
+Note :: For Older Version Of Python, we need to set the environment manually by adding the path to the setting the system environment option from setting
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python -m pip install notebook jupyter ipykernel
