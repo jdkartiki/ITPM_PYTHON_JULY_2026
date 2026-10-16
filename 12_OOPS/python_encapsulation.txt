@@ -1,0 +1,230 @@
+Encapsulation – Real-Time Problem Statements
+
+1. Mobile Phone
+Create a `MobilePhone` class with private attributes `brand`, `model`, and `battery_percentage`. Provide methods to charge the phone, use the phone, and 
+display battery status. The battery percentage should not be directly modified from outside the class.
+
+2. Library Book
+Create a `LibraryBook` class with private attributes `book_id`, `book_name`, and `is_issued`. Provide methods to issue the book, return the book, and display 
+the book status. The book status should not be directly changed from outside the class.
+
+3. Hospital Patient
+Create a `Patient` class with private attributes `patient_id`, `name`, and `age`. Provide methods to update the patient's age and display patient details. 
+The patient information should not be directly accessed or modified from outside the class.
+
+4. Vehicle Speed Control
+Create a `Vehicle` class with a private attribute `speed`. Provide methods to increase speed, decrease speed, and display the current speed. The speed should 
+not be directly changed from outside the class.
+
+5. Food Delivery Order
+Create a `FoodOrder` class with private attributes `order_id`, `customer_name`, `total_amount`, and `order_status`. Provide methods to update the order status, 
+add an item amount, and display order details. The total amount and order status should not be directly modified from outside the class.
+
+
+
+
+=====================================================================================================================================================================
+ENCAPSULATION – REAL-TIME PROBLEM STATEMENTS WITH ANSWERS
+
+1. MOBILE PHONE
+
+Question:
+
+Create a MobilePhone class with private attributes brand, model, and battery_percentage.
+Provide methods to charge the phone, use the phone, and display battery status.
+The battery percentage should not be directly modified from outside the class.
+
+Answer:
+
+```python
+class MobilePhone:
+
+    def __init__(self):
+        self.__brand = input("Enter Brand: ")
+        self.__model = input("Enter Model: ")
+        self.__battery_percentage = 50
+
+    def charge(self):
+        self.__battery_percentage = 100
+        print("Phone Charged")
+
+    def use_phone(self):
+        self.__battery_percentage -= 10
+        print("Phone Used")
+
+    def display_battery(self):
+        print("Battery:", self.__battery_percentage, "%")
+
+
+m = MobilePhone()
+
+m.use_phone()
+m.display_battery()
+
+m.charge()
+m.display_battery()
+```
+
+---
+
+2. LIBRARY BOOK
+
+Question:
+
+Create a LibraryBook class with private attributes book_id, book_name, and is_issued. 
+Provide methods to issue the book, return the book, and display the book status.
+The book status should not be directly changed from outside the class.
+
+Answer:
+
+```python
+class LibraryBook:
+
+    def __init__(self):
+        self.__book_id = input("Enter Book ID: ")
+        self.__book_name = input("Enter Book Name: ")
+        self.__is_issued = False
+
+    def issue_book(self):
+        self.__is_issued = True
+        print("Book Issued")
+
+    def return_book(self):
+        self.__is_issued = False
+        print("Book Returned")
+
+    def display_status(self):
+        print("Book ID:", self.__book_id)
+        print("Book Name:", self.__book_name)
+        print("Issued:", self.__is_issued)
+
+
+b = LibraryBook()
+
+b.issue_book()
+b.display_status()
+
+b.return_book()
+b.display_status()
+```
+
+---
+
+3. HOSPITAL PATIENT
+
+Question:
+
+Create a Patient class with private attributes patient_id, name, and age. 
+Provide methods to update the patient's age and display patient details.
+ The patient information should not be directly accessed or modified from outside the class.
+
+Answer:
+
+```python
+class Patient:
+
+    def __init__(self):
+        self.__patient_id = input("Enter Patient ID: ")
+        self.__name = input("Enter Patient Name: ")
+        self.__age = int(input("Enter Age: "))
+
+    def update_age(self):
+        self.__age = int(input("Enter New Age: "))
+
+    def display_details(self):
+        print("Patient ID:", self.__patient_id)
+        print("Name:", self.__name)
+        print("Age:", self.__age)
+
+
+p = Patient()
+
+p.display_details()
+
+p.update_age()
+
+p.display_details()
+```
+
+---
+
+4. VEHICLE SPEED CONTROL
+
+Question:
+
+Create a Vehicle class with a private attribute speed. Provide methods to increase speed, 
+decrease speed, and display the current speed. 
+The speed should not be directly changed from outside the class.
+
+Answer:
+
+```python
+class Vehicle:
+
+    def __init__(self):
+        self.__speed = 0
+
+    def increase_speed(self):
+        self.__speed += 10
+
+    def decrease_speed(self):
+        if self.__speed >= 10:
+            self.__speed -= 10
+
+    def display_speed(self):
+        print("Current Speed:", self.__speed, "km/h")
+
+
+v = Vehicle()
+
+v.increase_speed()
+v.increase_speed()
+v.display_speed()
+
+v.decrease_speed()
+v.display_speed()
+```
+
+---
+
+5. FOOD DELIVERY ORDER
+
+Question:
+
+Create a FoodOrder class with private attributes order_id, customer_name, total_amount, and order_status. Provide methods to update the order status, add an 
+item amount, and display order details. The total amount and order status should not be directly modified from outside the class.
+
+Answer:
+
+```python
+class FoodOrder:
+
+    def __init__(self):
+        self.__order_id = input("Enter Order ID: ")
+        self.__customer_name = input("Enter Customer Name: ")
+        self.__total_amount = 0
+        self.__order_status = "Pending"
+
+    def add_item(self):
+        amount = float(input("Enter Item Amount: "))
+        self.__total_amount += amount
+
+    def update_status(self):
+        self.__order_status = input("Enter Order Status: ")
+
+    def display_order(self):
+        print("Order ID:", self.__order_id)
+        print("Customer Name:", self.__customer_name)
+        print("Total Amount:", self.__total_amount)
+        print("Order Status:", self.__order_status)
+
+
+o = FoodOrder()
+
+o.add_item()
+o.add_item()
+
+o.update_status()
+
+o.display_order()
+```
