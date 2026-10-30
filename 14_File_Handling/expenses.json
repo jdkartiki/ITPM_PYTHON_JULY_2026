@@ -1,0 +1,110 @@
+[
+    {
+        "amount": 200,
+        "category": "Food",
+        "note": "Lunch",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 500,
+        "category": "Travel",
+        "note": "Bus pass",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 1000,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 500,
+        "category": "Food",
+        "note": "Dinner",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 10000,
+        "category": "Travel",
+        "note": "Trip",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 1200,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-08-01"
+    },
+    {
+        "amount": 200,
+        "category": "Food",
+        "note": "Lunch",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 500,
+        "category": "Travel",
+        "note": "Bus pass",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 1000,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 500,
+        "category": "Food",
+        "note": "Dinner",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 10000,
+        "category": "Travel",
+        "note": "Trip",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 1200,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-09-15"
+    },
+    {
+        "amount": 200,
+        "category": "Food",
+        "note": "Lunch",
+        "date": "2026-10-30"
+    },
+    {
+        "amount": 500,
+        "category": "Travel",
+        "note": "Bus pass",
+        "date": "2026-10-30"
+    },
+    {
+        "amount": 1000,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-10-30"
+    },
+    {
+        "amount": 500,
+        "category": "Food",
+        "note": "Dinner",
+        "date": "2026-10-30"
+    },
+    {
+        "amount": 10000,
+        "category": "Travel",
+        "note": "Trip",
+        "date": "2026-10-30"
+    },
+    {
+        "amount": 1200,
+        "category": "Bills",
+        "note": "Electricity",
+        "date": "2026-10-30"
+    }
+]
