@@ -1,0 +1,26 @@
+[
+    {
+        "id": "101",
+        "name": "Laptop",
+        "price": 50000.0,
+        "qty": 15
+    },
+    {
+        "id": "102",
+        "name": "Mobile Phone",
+        "price": 30000.0,
+        "qty": 0
+    },
+    {
+        "id": "103",
+        "name": "Headphones",
+        "price": 500.0,
+        "qty": 3
+    },
+    {
+        "id": "104",
+        "name": "PenDrive",
+        "price": 1000.0,
+        "qty": 5
+    }
+]
