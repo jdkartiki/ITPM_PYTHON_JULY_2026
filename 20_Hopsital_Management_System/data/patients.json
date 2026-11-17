@@ -1,0 +1,32 @@
+[
+    {
+        "patient_id": "101",
+        "name": "Ram",
+        "age": 26,
+        "gender": "male"
+    },
+    {
+        "patient_id": "102",
+        "name": "Priya",
+        "age": 25,
+        "gender": "Female"
+    },
+    {
+        "patient_id": "103",
+        "name": "Ishwar",
+        "age": 23,
+        "gender": "Male"
+    },
+    {
+        "patient_id": "104",
+        "name": "Kirti",
+        "age": 29,
+        "gender": "Female"
+    },
+    {
+        "patient_id": "105",
+        "name": "Shivam ",
+        "age": 23,
+        "gender": "Male"
+    }
+]

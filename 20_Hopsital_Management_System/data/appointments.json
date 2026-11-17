@@ -1,0 +1,23 @@
+[
+    {
+        "appointment_id": "201",
+        "patient_id": "101",
+        "doctor": "Dr. Kapoor",
+        "date": "2026-02-02",
+        "created_at": "2026-03-19 10:09:02"
+    },
+    {
+        "appointment_id": "203",
+        "patient_id": "103",
+        "doctor": "Dr. Ithape",
+        "date": "2026-03-21",
+        "created_at": "2026-03-20 12:46:52"
+    },
+    {
+        "appointment_id": "202",
+        "patient_id": "105",
+        "doctor": "Dr. Kshitij",
+        "date": "2026-08-08",
+        "created_at": "2026-08-06 10:19:54"
+    }
+]

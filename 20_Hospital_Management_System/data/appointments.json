@@ -1,0 +1,9 @@
+[
+    {
+        "appointment_id": "A101",
+        "patient_id": "P4001",
+        "doctor": "Kappor",
+        "date": "2026-11-20",
+        "created_at": "2026-11-17 09:32:45"
+    }
+]

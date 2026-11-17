@@ -1,0 +1,14 @@
+[
+    {
+        "patient_id": "P4001",
+        "name": "Kartiki",
+        "age": 20,
+        "gender": "Female"
+    },
+    {
+        "patient_id": "P4002",
+        "name": "Ram",
+        "age": 30,
+        "gender": "Male"
+    }
+]
